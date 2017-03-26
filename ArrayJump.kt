@@ -18,7 +18,6 @@ fun main(args: Array<String>){
         x++
     }
 
-
     loop@for(i in 0..5){
         println("外周1だよ！")
         for(j in 0..5){
