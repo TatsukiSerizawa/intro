@@ -4,7 +4,7 @@ fun main(args: Array<String>){
 
     /* クロージャー */
     var sum: Int = 0
-    arrayOf(1, 2, 3, 4, 5).filter {it < 3}. forEach {sum = sum + it}
+    arrayOf(1, 2, 3, 4).filter {it < 3}. forEach {sum = sum + it}
     print(sum)
 }
 
