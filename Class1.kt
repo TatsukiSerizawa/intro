@@ -37,6 +37,7 @@ class SchoolIdol(name: String, profile: Profile){
         println("${this.name} dancing!! Yahoo!!")
     }
 
+    /* Profileクラス */
     class Profile(favorite: String, b: Int, w: Int, h: Int){
         var favorite: String = favorite
         var threeSize: Array<Int> = arrayOf(b, w, h)
