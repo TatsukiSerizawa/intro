@@ -8,6 +8,7 @@ fun main(args: Array<String>){
     println(kotori.school)
 }
 
+/* 継承元クラスにはopenをつける */
 open class Idol(name: String, profile: Profile){
     var name: String = name
     var profile: Profile = profile
